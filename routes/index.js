@@ -31,7 +31,7 @@ router.post('/add_issue', function(req, res) {
   if(!issue){
     return res.status(400).send({error:true,message:'Please provide a new issue'});
   }
-  global.connection.query('INSERT INTO Issue SET ? ',{idIssue:parseInt(issue.id),Site:parseInt(issue.site),Panel:parseInt(issue.panel),Comment:issue.comment},function(error,results,fields){
+  global.connection.query('INSERT INTO Issue SET ? ',{Site:parseInt(issue.site),Panel:parseInt(issue.panel),Comment:issue.comment},function(error,results,fields){
       if(error)throw error;
       res.send(JSON.stringify({"status":200,"error":null,"response":results}));
   });
