@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    align-content: center;
+}
+#main_container{
+    margin:0 auto;
+    text-align: left;
+}
+
+div.searchArea{
+    position:relative;
+    top:30px;
+    min-height: 500px;
+}
+div.searchText{
+    position:relative;
+
+    top:30px;
+    min-height: 100px;
+}
+.Row{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-around;
+}
+.Colum{
+    display:inline-block;
+    background-color: #FFF0ED;
+
+}
+.Row_center{
+    margin-top:100px;
+    display: flex;
+    justify-content: space-around;
+}
+.Row_button{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+}

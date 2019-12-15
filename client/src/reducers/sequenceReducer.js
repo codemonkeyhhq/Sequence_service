@@ -1,7 +1,7 @@
-import {VIEW_ISSUE}from '../actions/types';
-export default function(state=[],action){
+import {ADD_SEQUENCE}from '../actions/types';
+export default function(state=null,action){
     switch(action.type){
-        case VIEW_ISSUE:
+        case ADD_SEQUENCE:
             return action.payload ||false;
         default:
             return state;
