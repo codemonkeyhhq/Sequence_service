@@ -1,6 +1,8 @@
 # Sequence_service
 Using ReactJs develop DNA sequence create and view
 
+Run: 'npm run dev' (this command run both the client side and server side nodejs)
+
 For Uploading and create:
 In import tab view, input all required file or upload a json file that is formatted like {sequences:[{sequencesName:,sequenceDescription:,sequence}]}
 
